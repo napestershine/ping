@@ -1,0 +1,7 @@
+company_web_post:
+    resource: "@CompanyWebBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
+company_web_homepage:
+    path:     /
+    defaults: { _controller: CompanyWebBundle:Default:index }

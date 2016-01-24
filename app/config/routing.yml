@@ -1,0 +1,7 @@
+company_web:
+    resource: "@CompanyWebBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

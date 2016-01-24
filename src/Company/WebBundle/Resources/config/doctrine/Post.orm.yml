@@ -1,0 +1,18 @@
+Company\WebBundle\Entity\Post:
+    type: entity
+    table: null
+    repositoryClass: Company\WebBundle\Repository\PostRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+            length: 255
+        path:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
